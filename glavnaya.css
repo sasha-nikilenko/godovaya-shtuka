@@ -1,5 +1,12 @@
-body{
+
+.body-l{
     background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.body-d{
+    background-color: rgb(57, 55, 55);
     width: 100%;
     text-align: center;
     margin: auto;
@@ -30,10 +37,19 @@ body{
     padding: 15px;
     margin-top: 2%;
 }
-main{
+.main-l{
     width: 80%;
     height: max-content;
     background-color: #C7E3B6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 30px;
+    display: inline-block;
+}
+.main-d{
+    width: 80%;
+    height: max-content;
+    background-color: #708961;
     margin-left: 10%;
     margin-right: 10%;
     margin: 30px;
@@ -50,7 +66,7 @@ h1{
     margin-top: 2%;
     font: 600;
 }
-.mainp{
+.mainp-l{
     margin-left: 57.5%;
     width: 30%;
     margin-top: -27.5%;
@@ -58,6 +74,16 @@ h1{
     margin-right: 5%;
     padding: 5%;
     background-color: #CFFFCB;
+
+}
+.mainp-d{
+    margin-left: 57.5%;
+    width: 30%;
+    margin-top: -27.5%;
+    margin-bottom: 7%;
+    margin-right: 5%;
+    padding: 5%;
+    background-color: #415e5b;
 
 }
 .hit{
@@ -71,30 +97,48 @@ h1{
     display: flex;
     flex-wrap: wrap;
 }
-section{
-    width: 30%;
+.section-q-l{
     height:40%;
     background-color: #CFFFCB;
     margin: 5%;
-    display: inline;
+    padding-bottom: 3%;
+}
+.section-q-d{
+    height:40%;
+    background-color: #708961;
+    margin: 5%;
+    padding-bottom: 3%;
+
 }
 .left-section{
     margin-left: 10%;
-    width: 30%;
+    width: 25%;
     margin-right: 10%;
+    display: inline-block;
 }
 .right-section{
-    width: 30%;
+    width: 25%;
     margin-left: 10%;
     margin-right: 10%;
+    display: inline-block;
+
 }
 .section-image{
     width: 80%;
     height: 40%;
     margin-top: 5%;
 }
-footer{
+.footer-l{
     background-color: #CFFFCB;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+.footer-d{
+    background-color: #415e5b;
     height: 15%;
     width: 100%;
     display: flex;
