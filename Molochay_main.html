@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="glavnaya.css">
+    <link rel="stylesheet" href="history.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
-<body>
+<body class="body-l">
 
 <header class="header-l">
 <img src="https://s.rbk.ru/v1_companies_s3/resized/960xH/media/trademarks/6865eb35-bb62-4548-9aed-191db89fd65f.jpg" class="logo" alt="">
-<a href="" class="a1"> Главная</a>
-<a href="" class="a1"> Меню</a>
-<a href="" class="a1"> О нас</a>
 <button class="switch">Переключить тему</button>
 </header>
 
-<main>
+<main class="main-l">
     <img src="https://cdn.pixabay.com/photo/2017/05/19/07/34/teacup-2325722_960_720.jpg" alt="" class="hit">
     <h1 class="mainh1"> Lorem ipsum dolor sit amet.</h1>
-    <p class="mainp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam in neque possimus ex, officiis sapiente rem nesciunt distinctio aspernatur illum itaque laborum id repellendus dolorem placeat amet rerum quidem.</p>
+    <p class="mainp-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam in neque possimus ex, officiis sapiente rem nesciunt distinctio aspernatur illum itaque laborum id repellendus dolorem placeat amet rerum quidem.</p>
 </main>
-<div class="section">
+
+
+
+
+
+
+<div class="section-q-l">
 <section class="left-section">
     <img src="https://cdn.pixabay.com/photo/2017/05/19/07/34/teacup-2325722_960_720.jpg" alt="" class="section-image">
-    <h1><a href="менюха/meny.html">Меню</a></h1>
+    <h1><a href="/meny.html">Меню</a></h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam nostrum ratione sunt. Facere sapiente alias nesciunt incidunt dolorem eveniet amet ab reprehenderit omnis molestias odit dicta, tempora obcaecati a?</p>
 </section>
 
@@ -35,7 +39,13 @@
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea mollitia voluptatem dolorem enim quae rem explicabo laborum minus soluta quidem, molestias repellat porro dignissimos molestiae voluptates possimus? Ipsa, itaque placeat!</p>
 </section>
 </div>
-<footer>
+
+
+
+
+
+
+<footer class="footer-l">
 <div class="Company">
     <h2>Мы в соцсетях</h2>
     <a href="#">Instagram</a><br><br>
@@ -50,5 +60,15 @@
     <a href="#">Поддержка</a><br>
 </div>
 </footer>
+<script>
+    $('button.switch').on('click', function() {
+        $('.body-l').toggleClass('body-d');
+        $('.header-l').toggleClass('header-d');
+        $('.section-q-l').toggleClass("section-q-d");
+        $('.footer-l').toggleClass('footer-d');
+        $('.main-l').toggleClass('main-d')
+        $('.mainp-l').toggleClass('mainp-d')
+})
+</script>
 </body>
 </html>
