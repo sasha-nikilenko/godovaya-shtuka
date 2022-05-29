@@ -1,5 +1,11 @@
-body{
+.body-l{
     background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.body-d{
+    background-color: rgb(57, 55, 55);
     width: 100%;
     text-align: center;
     margin: auto;
@@ -38,8 +44,12 @@ body{
     width: 20%;
     margin: 3%;
 }
-section{
+.section-l{
     background-color: #C7E3B6;
+    padding: 3%;
+}
+.section-d{
+    background-color: #415e5b;
     padding: 3%;
 }
 main{
@@ -80,8 +90,13 @@ main{
     width: 30%;
     margin-right: 10%;
 }
-a{
+.a-l{
     text-decoration: none;
     color: black;
+    margin-bottom: 50px;
+}
+.a-d{
+    text-decoration: none;
+    color: whitesmoke;
     margin-bottom: 50px;
 }
