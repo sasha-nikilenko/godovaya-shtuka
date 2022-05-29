@@ -1,0 +1,92 @@
+body{
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.header-l{
+    height: 100px;
+    background-color: #CFFFCB;
+    margin-top: -1%;
+}
+.header-d{
+    height: 100px;
+    background-color: #415e5b;
+    margin-top: -1%;
+}
+.logo{
+
+    height: 100px;
+    float: left;
+}
+.switch{
+    float: right;
+    background-color:#C7E3B6;
+    padding: 15px;
+    margin-top: 2%;
+}
+.switch:hover{
+    float: right;
+    background-color:#a5c591;
+    padding: 15px;
+    margin-top: 2%;
+}
+.meny-l{
+    width: 15%;
+    height: 20%;
+    background-color: #C7E3B6;
+    display:inline-block;
+    margin: 2%;
+}
+.meny-d{
+    width: 15%;
+    height: 20%;
+    background-color: #415e5b;
+    display:inline-block;
+    margin: 2%;
+}
+.image_meny{
+    width: 80%;
+}
+.big-meny{
+    display:flex;
+}
+
+
+
+.footer-l{
+    background-color: #CFFFCB;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+.footer-d{
+    background-color: #415e5b;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+.foot-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.Company{
+    width: 30%;
+    margin-left: 10%;
+}
+.Of-us{
+    width: 30%;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+}
